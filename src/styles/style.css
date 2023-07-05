@@ -86,3 +86,72 @@ body{
     text-align: right;
     margin-right: 12%;
 }
+.footer{
+    background-color:#666;
+    width: 101vw;
+    height: 60vh;
+    margin-left: -10px;
+    margin-bottom: -10px;
+}
+.footer-data{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 80%;
+}
+.branch{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 30%;
+    height: 30%;
+}
+.footer-location{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+    width: 50%;
+    height: 100%;
+    margin-left: 12%;
+    margin-top: 10px;
+}
+.contact{
+    align-self: flex-start;
+    margin-top: 3%;
+    margin-right: 30%;
+    width: 10%;
+    height: 100%;
+    color:#e4cfba;
+}
+.contact-info{
+    display: flex;
+    align-items: center;
+}
+.footer-hr{
+    background-color:#D7D7D7;
+    width: 76vw;
+    padding-bottom: 0.5px;
+}
+.copyrights-text{
+    color:#CECECE;
+    font-size:12px;
+}
+.branch-name{
+    color:#e4cfba;
+}
+.branch-text{
+    font-size: 12px;
+    color: #ccc;
+    margin-top: 7px;
+}
+.menu-link{
+    color: #999 !important;
+}
+.copy-rights{
+    color:#CECECE;font-size:12px;
+}
